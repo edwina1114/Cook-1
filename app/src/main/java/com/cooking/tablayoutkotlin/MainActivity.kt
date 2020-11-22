@@ -2,7 +2,6 @@ package com.cooking.tablayoutkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import com.cooking.tablayoutkotlin.fragments.CameraFragment
 import com.cooking.tablayoutkotlin.fragments.FavoritesFragment
@@ -32,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
     }
 
     private fun setCurrentFragment(fragment: Fragment) =
