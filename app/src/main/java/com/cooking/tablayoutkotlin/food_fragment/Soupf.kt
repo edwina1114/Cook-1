@@ -1,4 +1,4 @@
-package com.cooking.tablayoutkotlin.fragments
+package com.cooking.tablayoutkotlin.food_fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.cooking.tablayoutkotlin.R
 
-class Breakfastf : Fragment() {
+class Soupf : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.breakfast_layout, container, false)
+        return inflater!!.inflate(R.layout.soup_layout, container, false)
     }
 }

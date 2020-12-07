@@ -1,16 +1,14 @@
 package com.cooking.tablayoutkotlin.fragments
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
 import androidx.viewpager.widget.ViewPager
 import com.cooking.tablayoutkotlin.R
-import com.cooking.tablayoutkotlin.adapters.Adapter
+import com.cooking.tablayoutkotlin.foodtab_adapters.Adapter
 import com.google.android.material.tabs.TabLayout
 
 

@@ -1,4 +1,4 @@
-package com.cooking.tablayoutkotlin.fragments
+package com.cooking.tablayoutkotlin.food_fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
