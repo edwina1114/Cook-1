@@ -1,4 +1,4 @@
-package com.cooking.tablayoutkotlin.foodtab_adapters
+package com.cooking.tablayoutkotlin.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -16,13 +16,14 @@ class Adapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentM
             4 -> Vegetablef()
             5 -> Fruitf()
             6 -> Dessertf()
-            7 -> Easyf()
+            7 -> Breakfastf()
+            8 -> Easyf()
             else -> Sidedishf()
         }
     }
 
     override fun getCount(): Int {
-        return 9
+        return 10
     }
 
     override fun getPageTitle(position: Int): CharSequence {
@@ -34,7 +35,8 @@ class Adapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentM
             4 -> "蔬菜"
             5 -> "水果"
             6 -> "甜點"
-            7 -> "便當"
+            7 -> "早餐"
+            8 -> "便當"
             else -> "備餐"
         }
     }

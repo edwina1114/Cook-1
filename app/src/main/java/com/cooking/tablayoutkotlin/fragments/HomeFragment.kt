@@ -8,7 +8,7 @@ import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
 import com.cooking.tablayoutkotlin.R
-import com.cooking.tablayoutkotlin.foodtab_adapters.Adapter
+import com.cooking.tablayoutkotlin.adapters.Adapter
 import com.google.android.material.tabs.TabLayout
 
 
