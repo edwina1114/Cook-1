@@ -50,15 +50,11 @@ class Breakfastf : Fragment() {
 
     private fun setDataInList(): ArrayList<Fooditems>? {
         var items : ArrayList<Fooditems> = ArrayList()
-        items.add(Fooditems(R.drawable.letter_a , alphaChar = "Char A"))
-        items.add(Fooditems(R.drawable.letter_b , alphaChar = "Char B"))
-        items.add(Fooditems(R.drawable.letter_c , alphaChar = "Char C"))
-        items.add(Fooditems(R.drawable.letter_d , alphaChar = "Char D"))
-        items.add(Fooditems(R.drawable.letter_e , alphaChar = "Char E"))
-        items.add(Fooditems(R.drawable.letter_f , alphaChar = "Char F"))
-        items.add(Fooditems(R.drawable.letter_g , alphaChar = "Char G"))
-        items.add(Fooditems(R.drawable.letter_h , alphaChar = "Char H"))
-        items.add(Fooditems(R.drawable.letter_i , alphaChar = "Char I"))
+        items.add(Fooditems(R.drawable.breakfast1 , alphaChar = "燕麥優格杯"))
+        items.add(Fooditems(R.drawable.breakfast2 , alphaChar = "草莓蛋吐司"))
+        items.add(Fooditems(R.drawable.breakfast3 , alphaChar = "煎蛋吐司"))
+        items.add(Fooditems(R.drawable.breakfast4 , alphaChar = "起司煎蛋"))
+        items.add(Fooditems(R.drawable.breakfast5 , alphaChar = "起士菇菇炒蛋盒子"))
 
         return items
     }

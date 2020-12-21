@@ -37,7 +37,7 @@ class Adapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentM
             6 -> "甜點"
             7 -> "早餐"
             8 -> "便當"
-            else -> "備餐"
+            else -> "配菜"
         }
     }
 }

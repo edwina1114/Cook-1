@@ -19,7 +19,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="List of Ingredients"
+                    android:text="橙嗜食驗"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold"
                     android:textSize="25dp"
