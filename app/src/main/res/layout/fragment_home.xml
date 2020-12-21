@@ -15,26 +15,26 @@
             <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#E91E63">
+                android:background="#FB5D2C">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="橙嗜食驗"
+                    android:text="橙 嗜 食 驗"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold"
-                    android:textSize="25dp"
+                    android:textSize="45dp"
                     android:textAlignment="center"/>
             </androidx.appcompat.widget.Toolbar>
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/ingredients"
-                app:tabTextColor="#E91E63"
-                app:tabSelectedTextColor="#8BC34A"
-                app:tabIndicatorColor="#E87E"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="#1D7020"
                 app:tabMode="scrollable"
-                app:tabGravity="fill"/>
+                app:tabSelectedTextColor="#FB5D2C"
+                app:tabTextColor="#333333" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
